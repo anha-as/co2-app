@@ -1,7 +1,14 @@
 <html>
+    <head>
+            <link rel="stylesheet" href="styles2.css">
+    </head>
     <body>
         <form>
             <h1>CO2 Calculator</h1>
+            <div class="picture">
+            <img alt="Climate" height="50%" src="Climate.jpg"></img>
+        </div>
+    <section>
             <label for="km">km</label>
             <input type="number" id="km">
             <label for="vehicle"></label>
@@ -10,14 +17,18 @@
                 <option value="car">car</option>
                 <option value="bus">bus</option>
             </select>
+        
             <button>+</button>
+        </section>
         </form>
+        <div class="box pd-large mg-large text-center text-large">
         45 km with bus (3375g)<br/>
         12 km with bus (900g)<br/>
         425 km with ca (42500g)<br/>
         346 km with train (9688g)<br/>
         774 km with train (21672g)<br/>
         <b>Total emissions: 78135g</b>
+    </div>
 
     </body>
 </html>
